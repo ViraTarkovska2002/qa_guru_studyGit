@@ -6,7 +6,8 @@ import javax.annotation.processing.SupportedAnnotationTypes;
 public class NewTest {
     @Test
     public void newTest(){
+        int i = 3;
         System.out.println("This is the best test");
-        Assertions.assertTrue(3>2);
+        Assertions.assertTrue(i>2);
     }
 }
